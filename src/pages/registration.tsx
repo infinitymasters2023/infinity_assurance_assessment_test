@@ -114,7 +114,7 @@ const App = () => {
           <MDBInput label="Manager ID" name="mgrId" value={form.mgrId} onChange={handleChange} className="mb-3" />
           <MDBInput label="Seniority" name="seniority" value={form.seniority} onChange={handleChange} className="mb-3" />
 
-          <MDBInput label="Emp Code (Auto)" name="empCode" value={form.empCode} readOnly className="mb-4" />
+          <MDBInput label="Emp Code (Auto)" name="empCode" value={form.empCode}  readOnly className="mb-4" />
 
           <MDBBtn className="w-100" color="primary" onClick={handleSubmit}>
             Submit
